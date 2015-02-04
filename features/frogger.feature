@@ -1,7 +1,7 @@
 Feature: 
 Como jugador 
 Quiero seleccionar nivel
-obtener diferentes grados de dificultad
+Para obtener diferentes grados de dificultad
 
 Scenario:
 	Given entre al niveles

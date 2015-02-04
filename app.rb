@@ -1,14 +1,15 @@
 require 'sinatra'
 
 get '/' do
+	erb :home
+end
+
+get '/niveles' do
 		erb :niveles
 end
 
-get '/juego' do
-		"Inicia Juego"
+get '/login' do
 	erb :login
 end
 
-get '/home' do
-	erb :home
-end
+
