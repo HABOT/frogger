@@ -1,5 +1,5 @@
 Given(/^que ingreso a la pagina principal del juego$/) do
-	visit '/login'
+	visit '/'
 end
 
 Then(/^debo ver "(.*?)"$/) do |text|
@@ -18,12 +18,12 @@ When(/^oprimir el boton "(.*?)"$/) do |name|
   click_button(name)
 end 
 
-#Given(/^que ingreso mi usuario "(.*?)"$/) do |arg1|
-#	visit '/login'
-#	fill_in("usuario", :with => "Jugador")
-#end
+Given(/^que ingreso mi usuario "(.*?)"$/) do |arg1|
+	visit '/'
+	fill_in("usuario", :with => "Jugador")
+end
 
-#When(/^hago click en el boton iniciar$/) do
-#  click_button("Iniciar")
-#end
+When(/^hago click en el boton iniciar$/) do
+  click_button("Iniciar")
+end
 

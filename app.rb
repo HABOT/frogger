@@ -1,15 +1,15 @@
 require 'sinatra'
 
 get '/' do
-	erb :home
+	erb :login
 end
 
 get '/niveles' do
 		erb :niveles
 end
 
-get '/login' do
-	erb :login
+get '/home' do
+	@@jugador = params["usuario"]
+	erb :home
 end
-
 
