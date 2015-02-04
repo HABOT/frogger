@@ -1,6 +1,7 @@
 require 'sinatra'
 
 get '/' do
+    @@mensaje=""
 	erb :login
 end
 
@@ -10,6 +11,13 @@ end
 
 get '/home' do
 	@@jugador = params["usuario"]
-	erb :home
+	if @@jugador == ""
+		@@mensaje="Ingrese Usuario"
+		erb :login
+	else
+
+		erb :home
+	end
 end
+
 
