@@ -11,6 +11,7 @@ end
 
 get '/home' do
 	@@jugador = params["usuario"]
+	@@NroMillas="250"
 	if @@jugador == ""
 		@@mensaje="Ingrese Usuario"
 		erb :login
@@ -19,5 +20,6 @@ get '/home' do
 		erb :home
 	end
 end
+
 
 

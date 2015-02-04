@@ -1,16 +1,17 @@
+require './lib/millas'
 
-describe "Seleccion Nivel" do
+describe Millas do
 
-	it "si se selecciona basico continuio" do
+	it "si ingreso al home debo ver el numero de millas" do
 
 		#arrange
-		#player.name = "German"
+		consultar = Millas.new
 
 		#act
-		#result = player.status?
+		result = consultar.consultarMillas "Juan"
 	
 		#assert
-		#result.should == "German life's 100"
+		result.should == "250"
 
 	end
 end

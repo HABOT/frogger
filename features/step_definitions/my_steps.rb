@@ -27,3 +27,7 @@ When(/^hago click en el boton iniciar$/) do
   click_button("Iniciar")
 end
 
+Given(/^ingreso a jugar$/) do
+  visit '/home'
+end
+
