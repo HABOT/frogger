@@ -7,6 +7,7 @@ Then(/^debo ver "(.*?)"$/) do |text|
 end
 
 Given(/^que ingreso mi usuario "(.*?)"$/) do |arg1|
+	visit '/'
 	fill_in("usuario", :with => "Jugador")
 end
 

@@ -1,13 +1,12 @@
-
-
-describe Score do
+describe Login do
 
   it "Validar que ingrese a la pantalla login" do    
 	# Arrange
-	score = Score.new
+	login = Login.new
 	# Act
-	puntos = score.get_puntos_jugador1
+	acceso = login.usuario
 	# Assert
-    puntos.should == 0	
+    acceso.should == true	
   end
+end
 
