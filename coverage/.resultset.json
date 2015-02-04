@@ -5,6 +5,7 @@
         1,
         null,
         1,
+<<<<<<< HEAD
         2,
         null,
         null,
@@ -15,11 +16,18 @@
         null,
         null,
         null,
+=======
+        1,
+>>>>>>> 47d59225b77f6e723611fd19ecf94adb8b6f20f9
         null
       ],
       "/home/kleer/csd/frogger/features/step_definitions/my_steps.rb": [
         1,
+<<<<<<< HEAD
         2,
+=======
+        1,
+>>>>>>> 47d59225b77f6e723611fd19ecf94adb8b6f20f9
         null,
         null,
         1,
@@ -27,11 +35,19 @@
         null,
         null,
         1,
+<<<<<<< HEAD
         1,
         null,
         null,
         1,
         1,
+=======
+        0,
+        null,
+        null,
+        1,
+        0,
+>>>>>>> 47d59225b77f6e723611fd19ecf94adb8b6f20f9
         null,
         null
       ],
@@ -65,6 +81,10 @@
         null
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1423065491
+=======
+    "timestamp": 1423064899
+>>>>>>> 47d59225b77f6e723611fd19ecf94adb8b6f20f9
   }
 }
