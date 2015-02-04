@@ -1,4 +1,20 @@
 <html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/jq-bouncing-script.js"></script>
+	<script>
+	    $(document).ready(docready);
+	</script>
+    <style type="text/css">
+        .DTitle {
+            text-align:center;
+            color:darkblue;
+        }
+        .DCopyright {
+            opacity: 0.5;
+        }
+    </style>
+</head>
 	<body>
 		<table>
 			<tr>
@@ -11,10 +27,15 @@
 					</h1>
 				</td>
 				<td>
-					Nro Millas: @@NroMillas
+					Nro Millas: <%=@@NroMillas%>
 				</td>
 			</tr>
 		</table>
-
+</br>
+<h3 class="DTitle">****FROGGER****</h3>
+<!--h4 class="DTitle DCopyright">(Created by: Harold I Jimenez H &lt;harold.jimenez@gmail.com&gt;)</h4-->
+<div id="container">
+</div>
+<div id="frog" style="position:absolute;left:0px;top:200px;"><img src="./frog.png" border="0"></div>
 	</body>
 </html>
